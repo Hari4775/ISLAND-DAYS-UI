@@ -1,12 +1,8 @@
-import scubaVideo from './videos/scuba-video.mp4'
 import bgisland from './images/pexels-pixabay-373394.jpg'
-import scuba2 from './videos/newbg.mp4'
 
 import wa from './images/whatsapp.png'
 import logoIcon from './images/ISLAND-DAYS-LOGO.png'
 import info from'./icons/info.svg'
-import couple from './videos/couple.mp4'
-import groupScuba from './videos/groupScuba.mp4'
 import map from './icons/Map.svg'
 import Line from './icons/Line21.svg'
 import camera from './icons/Camera.png'

@@ -1,1 +1,0 @@
-export const REACT_APP_API_URL="https://islandays.onrender.com/admin/packages"
