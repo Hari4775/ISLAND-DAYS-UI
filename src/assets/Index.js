@@ -1,5 +1,5 @@
 import bgisland from './images/pexels-pixabay-373394.jpg'
-
+import bgvideo from './videos/newbg.mp4'
 import wa from './images/whatsapp.png'
 import logoIcon from './images/ISLAND-DAYS-LOGO.png'
 import info from'./icons/info.svg'
@@ -18,14 +18,11 @@ import heroImage from "./images/island-days-main.png"
 import flightimage from "./icons/flightimage.png"
 
 export {
-    scubaVideo,
+    bgvideo,
     bgisland,
-    scuba2,
     wa,
     logoIcon,
     info,
-    couple,
-    groupScuba,
     map,
     Line,camera,
     roundedImage,rounded1Image, sendImage,

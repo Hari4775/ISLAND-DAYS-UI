@@ -5,9 +5,9 @@ import HeroPage from './HeroPage/HeroPage';
 import AutoPlay from './Slider/Slider';
 import axios from 'axios';
 import InstagramData from './InstaData/InstagramData';
-import { scuba2 } from '../../../assets/Index';
 import Services from '../../Components/Services/Services';
 import Packages from '../../Components/packages/Packages';
+import { bgvideo } from '../../../assets/Index';
 
 
 const HomePage = () => {
@@ -41,7 +41,7 @@ const HomePage = () => {
     <>
       <div className="home-page h-screen w-full ">
         <video className="video-background" autoPlay loop muted>
-          <source src={scuba2} type="video/mp4" />Your browser does not support the video tag.
+          <source src={bgvideo} type="video/mp4" />Your browser does not support the video tag.
         </video>
         <HeroPage />
       </div>

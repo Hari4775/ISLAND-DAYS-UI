@@ -3,13 +3,11 @@ import Header from '../../../Common/Header/Header';
 import './Packages.css';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { REACT_APP_API_URL } from "../../../Utils/constants";
-import { setPackageData } from '../../../Utils/packageSlice';
 import axios from 'axios';
 import PackageCards from './PackageCards';
 
 const Packages = () => {
-  const dispatch = useDispatch();
+
   const navigate = useNavigate();
   const [packages, setPackages] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -28,7 +26,6 @@ const Packages = () => {
         throw new Error("Network response error");
       }
       setPackages(response?.data);
-      dispatch(setPackageData(response?.data));
       setLoading(false);
     } catch (error) {
       console.log(error, "data fetching error");
