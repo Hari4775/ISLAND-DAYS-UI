@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# DEPLOYMENT
+ - signup aws
+ - Launch the instance
+ - chmod 400 <secret>.pem
+ - ssh -i "LAKSHADWEEP.pem" ubuntu@ec2-43-204-96.ap-south-1.compute.amazone.com
